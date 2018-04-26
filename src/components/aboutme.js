@@ -6,15 +6,13 @@ class AboutMe extends React.Component {
   render() {
     return (
       <div className="about-me">
-        <div id="about" className="about-text">
-          <h2>Moa D</h2>
-        <div className="big-p-text">
-          <p>Hello!</p>
-          <p>My name is Moa</p>
-          <p>I'm</p>
-        </div>
+        <div className="about-text">
+        Moa D
         </div>
 
+        <div className="intro-text">Hello!<br />
+        My name is Moa</div>
+        
         <img className="profil-img" alt="This is me" src={Moa} />
       </div>
     )

@@ -1,13 +1,8 @@
-body {
-	margin: 0;
-	padding: 0;
-}
 
 h1 {
 	color: white;
 	font-family: "Titillium Web", sans-serif;
 	font-size: 110px;
-
 	text-shadow: 2px 2px 4px #000000;
 	text-transform: uppercase;
 }
@@ -19,8 +14,8 @@ header {
 	font-family: "Titillium Web", sans-serif;
 	font-size: 25px;
 	justify-content: space-around;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: 2px;
+	padding-top: 2px;
 	position: fixed;
 	width: 100%;
 	z-index: 5;
@@ -31,13 +26,12 @@ header {
 	font-family: "Titillium Web", sans-serif;
 	font-size: 15px;
 	text-transform: uppercase;
-	position: top;
 }
 
 .hero-text {
 	bottom: 0;
 	left: 0;
-	top: 180px;
+	top: 0px;
 	right: 0;
 	align-items: center;
 	justify-content: center;
@@ -47,7 +41,6 @@ header {
 .hero-text p {
 	color: white;
 	font-size: 35px;
-	position: top;
 	text-shadow: 2px 2px 4px #000000;
 	text-transform: uppercase;
 }
@@ -63,7 +56,11 @@ header {
 	cursor: pointer;
 	color: white;
 	font-size: 35px;
-	position: top;
+
 	text-shadow: 2px 2px 4px #000000;
 	text-transform: uppercase;
+}
+
+.hero-container {
+	text-align: center;
 }

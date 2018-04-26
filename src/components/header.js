@@ -13,6 +13,7 @@ class Header extends React.Component {
           <Link to="/">Home</Link>
           <Link to="/about">About Me</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/pictures">Pictures</Link>
           <Link to="/portfolio">Portfolio</Link>
         </header>
       </div>

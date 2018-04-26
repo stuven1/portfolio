@@ -1,22 +1,12 @@
-.about-me {
-	background-color: white;
+.name-text p {
+	text-transform: uppercase;
+	font-family: 'Satisfy', cursive, sans-serif;
 }
 
-.about-text h2 {
-	font-size: 60px;
+
+.intro-text{
 	color: black;
 	text-transform: uppercase;
-}
-
-.profil-img {
-	height: auto;
-	width: auto;
-	margin-left: 280px;
-		opacity: 0.7;
-}
-
-.big-p-text {
-	font-size: 30px;
-	color: blue;
-	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: bold;
 }
