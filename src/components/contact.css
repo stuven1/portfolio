@@ -1,12 +1,11 @@
-.contact-text p {
-	color: darkblue;
-	font-size: 30px;
-}
-.contact-text {
-	background: hotpink;
+.contact-info {
+  font-family: 'Satisfy', cursive, sans-serif;
+	color: #065143;
+	font-size: 100px;
 }
 
 a {
-	font-size: 15px;
+	font-size: 30px;
+	color: black;
 
 }

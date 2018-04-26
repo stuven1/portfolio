@@ -5,9 +5,10 @@ class Portfolio extends React.Component {
   render() {
     return (
       <div className="main-box">
-        <div id="portfolio" className="aboutme-text">
-          <h2>Portfolio</h2>
-          <p>DETTA ÄR MINA FANTASTISKA UNDERVERK. SE. NJUT. BESKÅDA.</p>
+        <div className="portfolio-header">
+        Portfolio.
+      </div>
+        <div className="portfolio-text-">DETTA ÄR MINA FANTASTISKA UNDERVERK. SE. NJUT. BESKÅDA
         </div>
       </div>
     )

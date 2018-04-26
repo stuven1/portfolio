@@ -16,7 +16,7 @@ class Home extends React.Component {
       <Link to="/contact">
         <button>Contact Me</button>
       </Link>
-
+      
       </div>
 
       <img className="greenleaf-img" alt="green leafs" src={GreenLeaf} />

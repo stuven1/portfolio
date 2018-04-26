@@ -6,10 +6,14 @@ class Pictures extends React.Component {
     return (
       <div className="main-box">
         <div className="my-photobox">
-          <h2>PHOTOS</h2>
-          <p>TEST.</p>
+          Pictures
         </div>
-      </div>
+        <div className="photobox-text">
+          Photobox
+        </div>
+
+        </div>
+    
     )
   }
 }
