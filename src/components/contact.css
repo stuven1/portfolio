@@ -1,11 +1,50 @@
-.contact-info {
-  font-family: 'Satisfy', cursive, sans-serif;
-	color: #065143;
-	font-size: 100px;
+.intro-text{
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: sans-serif;
+	font-weight: bold;
 }
 
-a {
-	font-size: 30px;
+.div-textes{
+	position: absolute;
+	font-family: sans-serif;
+	margin-left: 300px;
+	margin: 235px;
+	width: 330px;
+}
+
+.about-text{
+	position: absolute;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	width: 500px;
+	font-family: 'Satisfy', cursive, sans-serif;
+}
+
+.contact-me{
+	font-family: 'Satisfy', cursive, sans-serif;
 	color: black;
+	bottom: 0;
+	left: 0;
+	top: 0px;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	font-size: 80px;
+	margin: 25px;
+}
+.all-info {
+	bottom: 0;
+	left: 0;
+	top: 0px;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	font-size: 100px;
+}
+.contactme-img{
 
 }
