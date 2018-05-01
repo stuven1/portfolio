@@ -1,18 +1,15 @@
 import React from "react"
 import "./aboutme.css"
-import Moa from "./Moa@1x.png"
+import Moa from "./Moa@1x.png" //image//
 
 class AboutMe extends React.Component {
   render() {
     return (
       <div className="main-box">
-        <div className="about-me">
-          About
-        </div>
+        <div className="about-header">About</div>
 
         <div className="all-info">
-          <div className="moa-text">Moa Danielsson
-          </div>
+          <div className="mini-text">Moa Danielsson</div>
 
           <div className="div-textes">
             <div className="intro-text">Hello!</div>
