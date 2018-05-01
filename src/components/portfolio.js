@@ -7,7 +7,7 @@ class Portfolio extends React.Component {
       <div className="main-box">
         <div className="portfolio-header">
         Portfolio.
-      </div>
+        </div>
         <div className="portfolio-text-">DETTA ÄR MINA FANTASTISKA UNDERVERK. SE. NJUT. BESKÅDA
         </div>
       </div>

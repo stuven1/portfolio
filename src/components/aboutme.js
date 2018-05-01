@@ -9,9 +9,8 @@ class AboutMe extends React.Component {
         <div className="about-header">About</div>
 
         <div className="all-info">
-          <div className="mini-text">Moa Danielsson</div>
-
           <div className="div-textes">
+            <div className="mini-text">Moa Danielsson</div>
             <div className="intro-text">Hello!</div>
             <div className="intro-text">My name is Moa.</div>
             <div className="about-text">
