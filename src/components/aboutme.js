@@ -25,7 +25,7 @@ class AboutMe extends React.Component {
                 <a href="https://open.spotify.com/user/duracellmoa1/playlist/2w0TFId99K0LKP8xLMbkLg?si=Gg_vJs5XRUK9yViJzp2Zrw" target="_blank">
                 <i className="fab fa-spotify"></i></a>
                 <a href="mailto:moa.danielsson@gmail.com?subject=contact form"><i className="far fa-envelope"></i></a>
-                <i className="fas fa-mobile-alt"></i><span>+46706305940</span>
+                <i className="fas fa-mobile-alt"></i><span className="my-phonnumber">+46706305940</span>
               </div>
             </div>
           </div>

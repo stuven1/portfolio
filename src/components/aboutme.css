@@ -79,3 +79,7 @@ a .far.fa-envelope{
 .fas.fa-mobile-alt{
 	color: tomato;
 }
+
+.my-phonnumber{
+	display: none;
+}
