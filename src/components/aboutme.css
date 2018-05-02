@@ -63,3 +63,19 @@ padding: 2px;
 .socialmedia-bar{
 margin: 2px;
 }
+
+a .fab.fa-spotify{
+	color: #1db954;
+}
+
+a .fab.fa-linkedin{
+	color: #0077B5;
+}
+
+a .far.fa-envelope{
+	color: black;
+}
+
+.fas.fa-mobile-alt{
+	color: tomato;
+}

@@ -21,10 +21,11 @@ class AboutMe extends React.Component {
               Main worked with: HTML, CSS, JavaScript, React & Node.js.
 
               <div className="socialmedia-bar">
-                <i className="fab fa-linkedin"></i>
-                <i class="fab fa-spotify"></i>
-                <i class="far fa-envelope"></i>
-                <i class="fas fa-mobile-alt"></i>
+                <a href="https://www.linkedin.com/in/modanielsson/" target="_blank"><i className="fab fa-linkedin"></i></a>
+                <a href="https://open.spotify.com/user/duracellmoa1/playlist/2w0TFId99K0LKP8xLMbkLg?si=Gg_vJs5XRUK9yViJzp2Zrw" target="_blank">
+                <i className="fab fa-spotify"></i></a>
+                <a href="mailto:moa.danielsson@gmail.com?subject=contact form"><i className="far fa-envelope"></i></a>
+                <i className="fas fa-mobile-alt"></i><span>+46706305940</span>
               </div>
             </div>
           </div>

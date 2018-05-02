@@ -14,7 +14,7 @@ class AboutMe extends React.Component {
               If you think Im suitable for your project
               of if you’d just like to say “hello”, feel free to get in touch.
               <address>
-              <a href="mailto:moa.danielsson@gmail.com?subject=contact+form">Contact Me</a>
+                <a href="mailto:moa.danielsson@gmail.com?subject=contact form">Contact Me</a>
               </address>
             </div>
           </div>
