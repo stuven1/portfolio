@@ -34,15 +34,14 @@ address a {
 	font-weight: normal;
 	position: absolute;
 	top: 27px;
-	left: 90px;
+	left: 100px;
 	padding: 0px;
-
 }
 
 .socialmedia-bar{
 	position:relative;
 
 }
-.fas:hover + .num {
+.fas:hover + .num, .phoneshow:hover + .num {
     width: 100px;
 }

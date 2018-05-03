@@ -14,7 +14,7 @@ class AboutMe extends React.Component {
             <div className="intro-text">Hello!</div>
             <div className="intro-text">My name is Moa.</div>
             <div className="about-text">
-              Im a front end developerte who loves technology in all kind of forms and shapes.
+              Im a front end developer who loves technology in all kind of forms and shapes.
               To create, develop and produce small / large projects.
               Previous experience within the retail sales and
               marketing, training and presentations.Curious about what the future has to offer.

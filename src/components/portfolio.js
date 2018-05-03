@@ -6,8 +6,9 @@ class Portfolio extends React.Component {
     return (
       <div className="main-box">
         <div className="info-header">Portfolio</div>
-        
+        <h1>Hello</h1>
       </div>
+
     )
   }
 }

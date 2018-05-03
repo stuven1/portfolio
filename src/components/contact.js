@@ -27,7 +27,7 @@ class AboutMe extends React.Component {
                 <a href="mailto:moa.danielsson@gmail.com?subject=contact form">
                   <i className="far fa-envelope" />
                 </a>
-                <i className="fas fa-mobile-alt" />
+                <a href="tel:+46706305940" className="phoneshow"><i className="fas fa-mobile-alt" /></a>
                 <div className="num">+46706305940</div>
               </div>
             </div>
