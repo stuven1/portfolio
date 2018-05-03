@@ -16,11 +16,24 @@ class AboutMe extends React.Component {
               <address>
                 <a href="mailto:moa.danielsson@gmail.com?subject=contact form">Contact Me</a>
               </address>
+
+              <div className="socialmedia-bar">
+                <a href="https://www.linkedin.com/in/modanielsson/" target="_blank">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://open.spotify.c />duracellmoa1/playlist/2w0TFId99K0LKP8xLMbkLg?si=i98Vmk9MRlWkUn5cQIZ7Ig" target="_blank">
+                  <i className="fab fa-spotify"></i>
+                </a>
+                <a href="mailto:moa.danielsson@gmail.com?subject=contact form">
+                  <i className="far fa-envelope" />
+                </a>
+                <i className="fas fa-mobile-alt" />
+                <div className="num">+46706305940</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
     )
   }
 }

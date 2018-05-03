@@ -18,6 +18,31 @@ address {
 address a {
 	color: white;
 	background: black;
-padding: 6px;
-margin: 4px;
+	padding: 6px;
+	margin: 4px;
+}
+
+
+.num {
+	width: 0px;
+	height: 20px;
+	background: white;
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+	transition: width 2s;
+	overflow: hidden;
+	font-size: 13px;
+	font-weight: normal;
+	position: absolute;
+	top: 27px;
+	left: 90px;
+	padding: 0px;
+
+}
+
+.socialmedia-bar{
+	position:relative;
+
+}
+.fas:hover + .num {
+    width: 100px;
 }
