@@ -5,23 +5,21 @@ body {
 }
 
 .div-textes {
-	position: absolute;
-	font-family: sans-serif;
-	margin-left: 300px;
-	margin: 150px;
-	width: 330px;
+
+	margin-left: 100px;
+
 }
 
 .info-header {
   font-family: 'Satisfy', cursive, sans-serif;
   color: black;
-  bottom: 0;
+  /*bottom: 0;
   left: 0;
   top: 0px;
   right: 0;
   align-items: center;
   justify-content: center;
-  position: absolute;
+  position: absolute;*/
   font-size: 80px;
   margin: 25px;
 }

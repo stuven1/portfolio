@@ -22,6 +22,11 @@ address a {
 	margin: 4px;
 }
 
+span {
+	position: absolute;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
 
 .num {
 	width: 0px;
@@ -44,4 +49,33 @@ address a {
 }
 .fas:hover + .num, .phoneshow:hover + .num {
     width: 100px;
+}
+
+
+/* MOBILE-SIZE */
+@media (max-width: 600px) {
+
+		.mini-text{
+		font-size: 16px;
+		}
+		.contactme-text{
+		font-size: 10px;
+		}
+	}
+	
+
+/* TABLETS-SIZE */
+@media (min-width: 600px) and (max-width: 900px){
+	.mini-text{
+	font-size: 16px;
+	}
+
+.contactme-text{
+font-size: 10px;
+}
+.div-textes{
+margin: auto;
+margin-left: auto;
+width: auto;
+}
 }

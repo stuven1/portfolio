@@ -20,6 +20,7 @@ header {
 	position: fixed;
 	width: 100%;
 	z-index: 5;
+	top: 0;
 }
 
 .header-text a {
@@ -62,4 +63,31 @@ header {
 
 .hero-container {
 	text-align: center;
+}
+
+/* MOBILE-SIZE */
+@media (max-width: 600px) {
+
+		h1{
+			font-size: 30px;
+		}
+		.hero-text p{
+			font-size: 15px;
+		}
+		.hero-text button{
+		font-size: 10px;
+	}
+}
+
+/* TABLETS-SIZE */
+@media (min-width: 600px) and (max-width: 900px){
+		h1 {
+			font-size: 60px;
+		}
+		.hero-text p {
+			font-size: 30px;
+		}
+		.hero-text button {
+			font-size: 20px;
+		}
 }

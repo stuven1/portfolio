@@ -1,5 +1,6 @@
 import React from "react"
 import "./contact.css"
+import Typing from "react-typing-animation"
 
 class AboutMe extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class AboutMe extends React.Component {
 
         <div className="all-info">
           <div className="div-textes">
-            <div className="mini-text">Say Hello!</div>
+            <div className="mini-text"><Typing speed={200} >Say Hello!</Typing></div>
             <div className="contactme-text">
               If you think Im suitable for your project
               of if you’d just like to say “hello”, feel free to get in touch.
@@ -21,7 +22,7 @@ class AboutMe extends React.Component {
                 <a href="https://www.linkedin.com/in/modanielsson/" target="_blank">
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="https://open.spotify.c />duracellmoa1/playlist/2w0TFId99K0LKP8xLMbkLg?si=i98Vmk9MRlWkUn5cQIZ7Ig" target="_blank">
+                <a href="https://open.spotify.com/user/duracellmoa1/playlist/2w0TFId99K0LKP8xLMbkLg?si=4gjAUymLSdO7tgrzeMu5MQ" target="_blank">
                   <i className="fab fa-spotify"></i>
                 </a>
                 <a href="mailto:moa.danielsson@gmail.com?subject=contact form">
