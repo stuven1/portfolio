@@ -1,7 +1,7 @@
 import React from "react"
+import Typing from "react-typing-animation"
 import "./aboutme.css"
 import Moa from "./Moa@1x.png"
-import Typing from "react-typing-animation"
 
 class AboutMe extends React.Component {
   render() {

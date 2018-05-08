@@ -1,12 +1,46 @@
+.mini-text{
+	font-size: 30px;
+	font-family: 'Satisfy', cursive, sans-serif;
+}
+
 .contactme-text {
 	text-transform: uppercase;
 	font-size: 40px;
 	font-family: sans-serif;
 	font-weight: bold;
 	color: black;
-	width: 600px;
-	position: absolute;
-	font-family: sans-serif;
+	/* width: 600px; */
+}
+
+.contact-text-sub {
+	width: 70%;
+	float: left;
+}
+
+
+i{
+font-size: 20px;
+padding: 4px;
+}
+
+.socialmedia-bar{
+margin: 2px;
+}
+
+a .fab.fa-spotify{
+	color: #1db954;
+}
+
+a .fab.fa-linkedin{
+	color: #0077B5;
+}
+
+a .far.fa-envelope{
+	color: black;
+}
+
+.fas.fa-mobile-alt{
+	color: tomato;
 }
 
 address {
@@ -51,31 +85,40 @@ span {
     width: 100px;
 }
 
-
 /* MOBILE-SIZE */
 @media (max-width: 600px) {
 
-		.mini-text{
-		font-size: 16px;
-		}
-		.contactme-text{
-		font-size: 10px;
-		}
-	}
-	
-
-/* TABLETS-SIZE */
-@media (min-width: 600px) and (max-width: 900px){
 	.mini-text{
-	font-size: 16px;
+		font-size: 15px;
 	}
 
-.contactme-text{
-font-size: 10px;
-}
-.div-textes{
-margin: auto;
-margin-left: auto;
-width: auto;
-}
-}
+	.contactme-text{
+		width: 100%;
+		margin: 0;
+		font-size: 25px;
+	}
+
+	.div-textes{
+		margin: auto;
+		margin-left: auto;
+		width: auto;
+	}
+
+	/* TABLETS-SIZE */
+	@media (min-width: 600px) and (max-width: 900px){
+		.mini-text{
+		font-size: 30px;
+		}
+
+		.contactme-text{
+			width: 100%;
+			margin: 0;
+		}
+
+		.div-textes{
+			margin: auto;
+			margin-left: auto;
+			width: auto;
+		}
+	}
+	}

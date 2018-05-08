@@ -3,9 +3,6 @@
 	font-family: 'Satisfy', cursive, sans-serif;
 }
 
-.main-box{
-	/*margin-left: 25px;*/
-}
 .intro-text {
 	text-transform: uppercase;
 	font-size: 45px;
@@ -18,10 +15,8 @@
 }
 
 .about-text{
-	/*position: absolute;*/
 	font-size: 20px;
 	font-weight: lighter;
-	/*width: 450px;*/
 	max-width: 500px;
 	font-family: 'Satisfy', cursive, sans-serif;
 }
@@ -47,17 +42,6 @@
 	right: 0;
 	font-size: 80px;
 	margin: 25px;
-}
-
-.XXall-info {
-	bottom: 0;
-	left: 0;
-	top: 0px;
-	right: 0;
-	align-items: center;
-	justify-content: center;
-	position: absolute;
-	font-size: 100px;
 }
 
 i{
@@ -88,47 +72,60 @@ a .far.fa-envelope{
 /* MOBILE-SIZE */
 @media (max-width: 600px) {
 
-		.mini-text{
-		font-size: 16px;
+	.mini-text{
+		font-size: 15px;
+	}
+
+	.about-text{
+		width: 100%;
+		margin: 0;
+	}
+
+	.intro-text{
+		font-size: 25px;
+	}
+
+	.div-textes{
+		margin-left: 25px !important;
+		margin-right: 25px !important;
+	}
+
+	.profil-img{
+		width: 100%;
+		height: 100%;
 		}
 
-.about-text{
-	width: 100%;
-margin: 0;
-}
-
-.intro-text{
-	font-size: 20px;
-}
-.div-textes{
-	margin: auto;
-	margin-left: auto;
-	width: auto;
-}
-.profil-img{
-	width: 50%;
-	height: 50%;
-	position: absolute;
-}
-}
+		.about-text-sub {
+			width: 100%;
+		}
+	}
 
 /* TABLETS-SIZE */
 @media (min-width: 600px) and (max-width: 900px){
 	.mini-text{
-	font-size: 16px;
+	font-size: 30px;
 	}
 
-.intro-text{
-font-size: 20px;
-}
-.div-textes{
-margin: auto;
-margin-left: auto;
-width: auto;
-}
+	.about-text{
+		width: 100%;
+		margin: 0;
+	}
 
-.profil-img{
-	width: 150px;
-	height: 150px;
-}
-}
+	.intro-text{
+		font-size: 45px;
+	}
+
+	.div-textes{
+		margin-left: 25px !important;
+		margin-right: 25px !important;
+	}
+
+	.profil-img{
+		width: 75%;
+		height: 75%;
+		}
+
+		.about-text-sub {
+			width: 100%;
+		}
+	}
