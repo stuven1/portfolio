@@ -92,17 +92,18 @@ span {
 		font-size: 15px;
 	}
 
-	.contactme-text{
-		width: 100%;
+	.contact-text-sub{
+		width: 100% !important;
 		margin: 0;
 		font-size: 25px;
 	}
 
-	.div-textes{
-		margin: auto;
-		margin-left: auto;
-		width: auto;
+	.contactme-text{
+		width: 100% !important;
+		margin: 0;
+		font-size: 25px;
 	}
+}
 
 	/* TABLETS-SIZE */
 	@media (min-width: 600px) and (max-width: 900px){
@@ -116,9 +117,11 @@ span {
 		}
 
 		.div-textes{
-			margin: auto;
-			margin-left: auto;
-			width: auto;
+			margin-left: 25px !important;
+			margin-right: 25px !important;
 		}
-	}
+
+		.contact-text-sub{
+			width: 100%;
+		}
 	}
